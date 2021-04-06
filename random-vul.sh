@@ -10,3 +10,5 @@ line=${lines[$index]}
 echo "$line" | awk -F'\t' '{ print $1" "$4":"$5 }'
 echo "================"
 echo "$line" | awk -F'\t' '{ print $6 }'
+echo
+
